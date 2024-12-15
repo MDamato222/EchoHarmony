@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'futuramdbt_bold';
+    src: url('futuramdbt_bold.otf');
+}
+
+body {
+  background-image: url(images/sphere_bg.png);
+  background-color: #0B8368;
+  color: white;
+  font-family: 'futuramdbt_bold';
+}
+
+h1 {
+  color: white;
+  font-family: 'futuramdbt_bold';
+}
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #0b8368;
+  text-align: center;
+  padding: 30px 140px;
+  text-decoration: none;
+  font-size: 51px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 9px solid #0b8368;
+}
+
+.topnav a.active {
+  border-bottom: 9px solid #0b8368;
+}
+
+/*for larger strings*/
+div.sidetext1 {
+  float: left;
+  margin: 260px -130px;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  border-bottom: 5px solid white;
+}
+
+/*for smaller strings*/
+div.sidetext2 {
+  float: left;
+  margin: 260px -50px;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  border-bottom: 5px solid white;
+}
+
+/*for medium strings*/
+div.sidetext3 {
+  float: left;
+  margin: 260px -105px;
+  transform: rotate(-90deg);
+  font-size: 20px;
+  border-bottom: 5px solid white;
+}
+
+div.homeimg {
+  float: center;
+  margin: 126px 310px;
+}
+
+div.about_text {
+  float: center;
+  color: white;
+  font-size: 35px;
+  margin: 135px 310px;
+}
+
+div.sidebar_text {
+  float: left;
+  color: white;
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 135px 90px;
+}
+
+div.searchalign {
+  float: left;
+  margin: 120px 200px;
+}
+
+div.imagearray {
+  float: left;
+  margin: -30px 233px;
+  overflow: hidden;
+}
+
+div.imagearray2 {
+  float: left;
+  margin: 40px 233px;
+  overflow: hidden;
+}
